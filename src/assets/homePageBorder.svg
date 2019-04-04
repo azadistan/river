@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="564px" height="52px" viewBox="0 0 564 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>分组</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="18 1 552 1 552 29.0830209 534.193754 41 -4.54747351e-13 41 -4.54747351e-13 12.7065078"></polygon>
+        <filter x="-1.6%" y="-22.5%" width="103.3%" height="145.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.760784314   0 0 0 0 0.764705882  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-1.8%" y="-25.0%" width="103.6%" height="150.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="2" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
+            <feGaussianBlur stdDeviation="3" in="shadowSpreadInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.309803922   0 0 0 0 0.82745098   0 0 0 0 0.843137255  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-383.000000, -375.000000)">
+            <g id="分组" transform="translate(389.000000, 380.000000)">
+                <g id="分组-3-copy-4" transform="translate(0.000000, 20.000000)" stroke="#00C2C3" stroke-linecap="square" stroke-width="3">
+                    <path d="M0.580645161,19.3548387 L0.580645161,1.77635684e-15" id="直线-2"></path>
+                    <path d="M18.2903226,37.3870968 L18.2903226,1.96774194" id="直线-2-copy" transform="translate(18.290323, 19.677419) rotate(90.000000) translate(-18.290323, -19.677419) "></path>
+                </g>
+                <g id="分组-3-copy-5" transform="translate(534.000000, 10.500000) rotate(180.000000) translate(-534.000000, -10.500000) translate(516.000000, 0.000000)" stroke="#00C2C3" stroke-linecap="square" stroke-width="3">
+                    <path d="M0.580645161,19.3548387 L0.580645161,1.77635684e-15" id="直线-2"></path>
+                    <path d="M18.2903226,37.3870968 L18.2903226,1.96774194" id="直线-2-copy" transform="translate(18.290323, 19.677419) rotate(90.000000) translate(-18.290323, -19.677419) "></path>
+                </g>
+                <g id="矩形-copy-3" opacity="0.5">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                    <path stroke="#00C2C3" stroke-width="1" d="M18.1482891,1.5 L0.5,12.9777686 L0.5,40.5 L534.041877,40.5 L551.5,28.8160051 L551.5,1.5 L18.1482891,1.5 Z" stroke-linejoin="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
